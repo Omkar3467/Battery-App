@@ -8,7 +8,7 @@ It is supported in Python versions 2.6, 2.7, and 3.4+ from plyer import notifica
 
 python -c "f = open('/proc/4053/cmdline', 'rt'); print(repr(f.read()))" 
 
-'/opt/python3/bin/python3 /opt/rotek-apps/bin/rpyc_server/rpyc_server.py --[app_startup]b_daemon=False\x00'
+'/opt/python3/bin/python3 /opt/rotek-apps/bin/rpyc_server/rpyc_server.py daemon=False\x00'
 proc.cmdline() result was :
 
 >>> proc=psutil.Process(4053)
@@ -30,4 +30,4 @@ timeout (int) – time to display the message for, defaults to 10
 ticker (str) – text to display on status bar as the notification arrives
 toast (bool) – simple Android message instead of full notification
 
-The battery app helps in finding the correct percentage of the battery in the devices, also after every 60 mins the app will show th =e battery percentage.
+The battery app helps in finding the correct percentage of the battery in the devices, also after every 60 mins the app will show the battery percentage.
