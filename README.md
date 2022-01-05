@@ -1,5 +1,5 @@
 # Battery-App
-i used psutil, Psutil is a Python cross-platform library used to access system details and process utilities. It is used to keep track of various resources utilization in the system. Usage of resources like CPU, memory, disks, network, sensors can be monitored. Hence, this library is used for system monitoring, profiling, limiting process resources, and the management of running processes. 
+I used psutil, Psutil is a Python cross-platform library used to access system details and process utilities. It is used to keep track of various resources utilization in the system. Usage of resources like CPU, memory, disks, network, sensors can be monitored. Hence, this library is used for system monitoring, profiling, limiting process resources, and the management of running processes. 
 import psutil
 for process in psutil.process_iter():
     cmdline = process.cmdline
